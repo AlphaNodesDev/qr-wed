@@ -1,74 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+# Wedding Announcement System
 
- <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+Welcome to the Wedding Announcement System! This project allows couples to create personalized QR codes that, when scanned, lead to a website containing details about their wedding, including images, save the date information, and wedding location.
 
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
+## Table of Contents
+- [Installation](#installation)
+- [Update](#update)
+- [SQL Query](#sql-query)
+- [Author](#author)
+- [Example Images](#example-images)
 
-    h1 {
-      color: #4CAF50;
-      text-align: center;
-    }
+## Installation
 
-    h2 {
-      color: #4CAF50;
-    }
+1. **Clone the repository to your local machine:**
+   ```bash
+   git clone https://github.com/your-username/wedding-announcement-system.git
+Navigate to the project directory:
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
+bash
+Copy code
+cd wedding-announcement-system
+Install the required dependencies:
 
-    li {
-      padding: 0.5rem 0;
-    }
+bash
+Copy code
+npm install
+Set up your database by running the SQL script provided in sql-script.sql:
 
-    a {
-      color: #4CAF50;
-      text-decoration: none;
-    }
+bash
+Copy code
+mysql -u your-username -p < sql-script.sql
+Configure the database connection by updating the config.js file with your database credentials.
 
-    a:hover {
-      text-decoration: underline;
-    }
- </style>
-</head>
-<body>
- <div class="container">
-    <h1>Wedding Details App</h1>
-    <p>A simple app that allows users to view a wedding couple's details by scanning a QR code. This includes some images and location details.</p>
+Start the application:
 
-    <h2>Features</h2>
-    <ul>
-      <li>Scanning QR code to access wedding details</li>
-      <li>Viewing wedding couple's details</li>
-      <li>Viewing images of the wedding couple</li>
-      <li>Viewing location details of the wedding</li>
-    </ul>
+bash
+Copy code
+npm start
+Visit http://localhost:3000 in your web browser to access the Wedding Announcement System.
 
-    <h2>Installation and Usage</h2>
-    <ol>
-      <li>Download the latest version of the project from the <a href="https://github.com/user/project/releases">releases</a> page.</li>
-      <li>Extract the downloaded ZIP file to a directory on your server, such as "C:\wamp\www\wedding-details".</li>
-      <li>Ensure that you have a running WAMP server and your web server is set up correctly. If not, please follow the <a href="http://www.wampserver.com/en/">official WAMP installation guide</a>.</li>
-      <li>Open your web browser and navigate to "http://localhost/wedding-details" to access the application.</li>
-    </ol>
+Update
+To update the project to the latest version, follow these steps:
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the <a href="https://github.com/user/project/blob/master/LICENSE">LICENSE.md</a> file for details.</p>
+Pull the latest changes from the repository:
 
-    <h2>Contact</h2>
-    <p>If you have any questions or suggestions, please feel free to <a href="mailto:user@example.com">contact us</a>.</p>
- </div>
-</body>
-</html>
+bash
+Copy code
+git pull origin main
+Update the dependencies:
+
+bash
+Copy code
+npm install
+Restart the application:
+
+bash
+Copy code
+npm start
+SQL Query
+If you need to retrieve specific data from the database, you can use the following SQL query as an example:
+
+sql
+Copy code
+SELECT * FROM wedding_couples WHERE couple_id = 'your-couple-id';
+Replace 'your-couple-id' with the actual couple ID you want to retrieve information for.
+
+Author
+This project is authored by [Your Name]. Feel free to contact me at [your.email@example.com] for any inquiries.
+
+Example Images
+Couple 1
+Caption: Save the Date - Couple 1
+
+Couple 2
