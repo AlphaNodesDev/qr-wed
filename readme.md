@@ -18,16 +18,14 @@ Welcome to the Wedding Announcement System! This project allows couples to creat
 
 2. **Navigate to the project directory:**
    ```bash
+   cd wedding-announcement-system
 
-cd wedding-announcement-system
 
 3. **Install the required dependencies:**
-  ```bash
+    ```bash
    npm install
    
 
-4. **Set up your database by running the SQL script provided in sql-script.sql:**
-```bash
 
 
 Author
