@@ -6,18 +6,17 @@ Welcome to the Wedding Announcement System! This project allows couples to creat
 - [Installation](#installation)
 - [Update](#update)
 - [SQL Query](#sql-query)
-- [Author](#author)
 - [Example Images](#example-images)
 
 ## Installation
 
 1. **Clone the repository to your local machine:**
    ```bash
-   git clone https://github.com/your-username/wedding-announcement-system.git
+   git clone https://github.com/AlphaNodesDev/qr-wed.git
 
 2. **Navigate to the project directory:**
    ```bash
-   cd wedding-announcement-system
+   cd cd wedding-announcement-system
 
 3. **Install the required dependencies:**
     ```bash
