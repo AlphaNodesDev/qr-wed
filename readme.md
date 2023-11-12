@@ -16,24 +16,24 @@ Welcome to the Wedding Announcement System! This project allows couples to creat
    git clone https://github.com/your-username/wedding-announcement-system.git
 Navigate to the project directory:
 
-bash
+```bash
 Copy code
 cd wedding-announcement-system
 Install the required dependencies:
 
-bash
+```bash
 Copy code
 npm install
 Set up your database by running the SQL script provided in sql-script.sql:
 
-bash
+```bash
 Copy code
 mysql -u your-username -p < sql-script.sql
 Configure the database connection by updating the config.js file with your database credentials.
 
 Start the application:
 
-bash
+```bash
 Copy code
 npm start
 Visit http://localhost:3000 in your web browser to access the Wedding Announcement System.
@@ -43,17 +43,17 @@ To update the project to the latest version, follow these steps:
 
 Pull the latest changes from the repository:
 
-bash
+```bash
 Copy code
 git pull origin main
 Update the dependencies:
 
-bash
+```bash
 Copy code
 npm install
 Restart the application:
 
-bash
+```bash
 Copy code
 npm start
 SQL Query
