@@ -1,6 +1,6 @@
-# Wedding Announcement System
+# Qr Wedding Details System
 
-Welcome to the Wedding Announcement System! This project allows couples to create personalized QR codes that, when scanned, lead to a website containing details about their wedding, including images, save the date information, and wedding location.
+Welcome to the Qr Wedding Details System! This project allows couples to create personalized QR codes that, when scanned, lead to a website containing details about their wedding, including images, save the date information, and wedding location.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -18,10 +18,6 @@ Welcome to the Wedding Announcement System! This project allows couples to creat
    ```bash
    cd cd wedding-announcement-system
 
-3. **Install the required dependencies:**
-    ```bash
-   npm install
-   
-Author
+<h1>Author</h1>
 This project is authored by AlphaNodesDev. Feel free to contact me at [shyjuss8129@gmail.com] for any inquiries.
 
